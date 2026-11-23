@@ -1,0 +1,9 @@
+# the real mouse (x16emu -mousescript, R49), a whole session: Klondike #1,
+# 40 actions of the simple player (presses, drags, double clicks, deals)
+# as PS/2 packets; the test build saves the state and the screen after
+# every move (the script pauses after each action meanwhile)
+game 0 1
+realmouse
+auto 40
+state
+end 60

@@ -1,0 +1,10 @@
+# the real mouse (x16emu -mousescript, R49): Klondike #1, 78 moves (the
+# solution's first) all as drags or talon clicks: cards dropped on each
+# foundation (clubs, spades, hearts, diamonds: x 288-583) and each row
+# (x 48-583), the right ones past x 512; the talon dealt out. After
+# every move the state and the screen are saved: no outline may be left
+game 0 1
+realmouse
+moves test/right.moves drag
+state
+end 60

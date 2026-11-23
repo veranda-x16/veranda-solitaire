@@ -1,0 +1,58 @@
+Veranda Solitaire
+=================
+
+A black-and-white solitaire collection for Veranda, the GEOS-style
+desktop for the Commander X16. Copyright (C) 2026 the Veranda Solitaire
+authors.
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version. It is distributed WITHOUT ANY WARRANTY; see
+COPYING for the licence's text.
+
+Derived from PySolFC
+--------------------
+
+The game logic is a translation into C of PySolFC's
+(https://github.com/shlomif/PySolFC, read at commit 739f507, November
+2026), which is licensed under the GNU GPL version 3 or later:
+
+  - src/engine.c: the stacks' rules (acceptsCards, canMoveCards,
+    canDropCards, canFlipCard, the talons' dealCards and canDealCards,
+    the super move, autoPlay, isGameWon) from pysollib/stack.py and
+    pysollib/game/__init__.py;
+  - src/games.c: Klondike, Klondike by Threes, FreeCell, Spider (1, 2
+    and 4 suits), Golf, Pyramid, Yukon and Russian Solitaire from
+    pysollib/games/klondike.py, freecell.py, spider.py, golf.py,
+    pyramid.py and yukon.py;
+  - the deal numbers: Game.shuffle with LCRandom31 and ms_rearrange from
+    pysol_cards (https://github.com/shlomif/pysol_cards, Expat licence,
+    by Shlomi Fish), so a deal number gives PySolFC's deal of that number
+    (its "ms" deals; plain numbers below 32000 are the same);
+  - tools/pysol_ref.py: an independent transcription of the same deal
+    code, used by the tests.
+
+PySolFC's copyright holders, as its sources and AUTHORS.md name them:
+
+  Copyright (C) 1998-2003 Markus Franz Xaver Johannes Oberhumer (PySol)
+  Copyright (C) 2003 Mt. Hood Playing Card Co.
+  Copyright (C) 2005-2009 Skomoroh (PySolFC)
+  and its maintainers and contributors: T. Kirk (Ultrasol), Brian
+  Lenihan, Shlomi Fish (who places his changes under the Expat
+  licence), lufebe16, Roderik Ploszek, Joe R., and the games'
+  contributors Mark Andrews, Galen Brooks, Andrew Csillag, Michael
+  Foord, Matthew Hohlfeld, Nicola Larosa, John Stoneham and David
+  Svoboda.
+
+Nothing of PySolFC's artwork is used: its card sets have licences of
+their own. The card pictures (tools/mkcards.py), the suits, the rank
+fonts, the backs and the icon are drawn for this program. No PySolFC
+code is run by the build or the tests; it was read only.
+
+Veranda
+-------
+
+Veranda (MIT licence) is not part of this repository; the program is
+built against its SDK. veranda/test/play.s is adapted from Veranda's own
+test player (tests/sdk_play.s, MIT licence).

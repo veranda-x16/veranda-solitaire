@@ -1,0 +1,7 @@
+# the real mouse (x16emu -mousescript): Klondike #1, the waste's 4 of
+# hearts dragged onto the 5 of clubs; the state after it
+game 0 1
+mouse
+drag w r2 1
+state
+end 30

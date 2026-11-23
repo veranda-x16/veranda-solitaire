@@ -1,0 +1,30 @@
+# x16emu -mousescript (gate N): a release the program never sees.
+# Klondike #1, the test build with SOL_SLOWTICK (the second's process holds
+# the main loop for 12 frames, sol_slow 1 meanwhile; SLOW is its address,
+# from the map). The talon clicked (a move: the clock runs); the ace of
+# hearts (row 5) pressed and dragged a little; during the slow pass the
+# button goes up and down again: the kernel reports one press, the release
+# is lost. Then a move down and the release. The drag must not leave its
+# outline on the table (the hardware report: a line through a foundation).
+# The drag starts after a slow pass has ended (the second's process runs
+# at its own phase: a talon click that takes longer, Veranda Look 2's felt,
+# moved it; the press and release of the talon may both fall in the first
+# pass), and the release and press come in the next one.
+0 id 3
+400 move -2000 -2000
+440 move 76 33
+442 down
+446 up
+wait SLOW 1
+wait SLOW 0
+5 move 400 136
+7 down
+10 move 3 2
+wait SLOW 1
+1 up
+3 down
+40 move 0 30
+50 move 0 30
+60 move 0 30
+70 up
+400 exit

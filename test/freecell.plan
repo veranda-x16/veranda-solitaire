@@ -1,0 +1,13 @@
+# FreeCell #1 won through the mouse: the solution's moves as drags (to the
+# columns and the free cells) and double clicks (home); the win's cards
+# bouncing; a click stops them and the win box shows
+game 2 1
+shot fcdrag
+moves test/freecell1.moves
+state
+wait 240
+shotnow winanim
+wait 60
+click 320 300
+wait 90
+end 30

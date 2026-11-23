@@ -1,0 +1,20 @@
+# Golf, Pyramid, Yukon and Spider through the mouse: the test build starts
+# at Golf #3; a simple player's moves in each (clicks, double clicks,
+# drags: Pyramid's pairs), the next game by game/choose game and its deal
+# number; a snapshot (the state and the screen) after each
+game 6 3
+auto 30
+state
+choose 6
+dealno 3
+auto 30
+state
+choose 7
+dealno 3
+auto 25
+state
+choose 4
+dealno 2
+auto 20
+state
+end 60

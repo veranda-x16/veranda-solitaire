@@ -1,0 +1,13 @@
+# Klondike #1 won through the mouse: host/klsolve.c's solution
+# (test/klondike1.moves) as drags, double clicks (home) and clicks on the
+# talon; the win's cards, a click, the win box
+game 0 1
+shot kwdrag
+moves test/klondike1.moves
+state
+wait 200
+shotnow kwinanim
+wait 60
+click 320 300
+wait 90
+end 30

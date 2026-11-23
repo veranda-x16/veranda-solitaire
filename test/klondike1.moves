@@ -1,0 +1,160 @@
+# Klondike #1: a solution found by host/klsolve.c (159 moves, 193 positions)
+m r5 f2 1
+m r6 f1 1
+m r6 r0 1
+m r6 r1 1
+m r6 r3 1
+m w r2 1
+m w f0 1
+m r4 r2 1
+m r0 r4 2
+m r4 r0 3
+m w r6 1
+c t
+m w r6 1
+c t
+m w r0 1
+c t
+c t
+c t
+c t
+m w f0 1
+m r2 f0 1
+c t
+m w r4 1
+m r1 r4 2
+m f0 r2 1
+c t
+m r2 f0 1
+c t
+m f0 r2 1
+c t
+m r2 f0 1
+m w r4 1
+m r1 r4 1
+m f0 r2 1
+c t
+m r2 f0 1
+c t
+m f0 r2 1
+c t
+m r2 f0 1
+m w r4 1
+m f0 r2 1
+c t
+m r2 f0 1
+c t
+m f0 r2 1
+c t
+m r2 f0 1
+c t
+m f0 r2 1
+c t
+m r2 f0 1
+m w r0 1
+m f0 r2 1
+c t
+m w f2 1
+m r2 f0 1
+m r3 f2 1
+m r2 f2 1
+m r3 f0 1
+m r2 f0 1
+m r4 f0 1
+m r3 r1 1
+m r4 r1 6
+m r5 r3 1
+m r5 f1 1
+m r5 f3 1
+m r5 f2 1
+m r5 f3 1
+m r6 f1 1
+m r3 r5 2
+m r3 r5 1
+m r4 r3 1
+m w r1 1
+m f1 r6 1
+m f2 r1 1
+m r6 f1 1
+c t
+m r1 f2 1
+m w f2 1
+m f1 r6 1
+c t
+m r6 f1 1
+c t
+m w f1 1
+c t
+m w r5 1
+m r2 r5 1
+m r2 r1 1
+m f1 r1 1
+m f1 r6 1
+c t
+m r6 f1 1
+m r1 f1 1
+m w r0 1
+m w r0 1
+m f1 r1 1
+m f1 r6 1
+m f2 r0 1
+m r6 f1 1
+m r1 f1 1
+m r6 r0 2
+m r6 f0 1
+m f1 r1 1
+m f1 r0 1
+c t
+m r0 f1 1
+m r1 f1 1
+c t
+m w r5 1
+m f0 r5 1
+m w r5 1
+m f1 r1 1
+m f1 r0 1
+c t
+m r0 f1 1
+m r1 f1 1
+m w r3 1
+m r6 r3 1
+m f1 r1 1
+m f1 r0 1
+c t
+m w f3 1
+m r0 f1 1
+m r0 f3 1
+m r1 f1 1
+m r0 f1 1
+m r0 f2 1
+m r1 f3 1
+m r1 f1 1
+m r0 f1 1
+m r1 f2 1
+m r0 f2 1
+m r1 f1 1
+m r4 f2 1
+m r5 f3 1
+m w f3 1
+m r5 f0 1
+m w f0 1
+m r0 f0 1
+m w f0 1
+m r5 f3 1
+m r1 f3 1
+m r0 f3 1
+m r3 f3 1
+m r5 f1 1
+m r1 f1 1
+m r0 f1 1
+m r3 f1 1
+m r5 f2 1
+m r1 f2 1
+m r0 f2 1
+m r0 f1 1
+m r5 f0 1
+m r1 f0 1
+m r1 f2 1
+m r5 f3 1
+m r3 f3 1
+m r5 f0 1

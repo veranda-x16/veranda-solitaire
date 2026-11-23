@@ -1,0 +1,9 @@
+# the real mouse (x16emu -mousescript, R49): Klondike #1, the talon
+# clicked at its place on the screen until it is empty (23 deals), the
+# empty talon clicked (the waste turned over, round 2), a deal again; the
+# test build saves the state and the screen after every move
+game 0 1
+realmouse
+moves test/stock.moves
+state
+end 60

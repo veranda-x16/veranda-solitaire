@@ -1,0 +1,7 @@
+# the release build through the real mouse (R49, an SD card image with the
+# shell): game/quit. The deal is the release build's own (random); the
+# menu's place does not depend on it
+game 0 1
+realmouse
+menu 1 5
+end 600

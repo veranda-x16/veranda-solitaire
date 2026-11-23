@@ -1,0 +1,127 @@
+# new deals, restarts and draw 3 / draw 1 again and again (Klondike), then
+# deal numbers typed in; the state and the screen at the end
+game 0 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 97
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 194
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 291
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 388
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 485
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 582
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 679
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 776
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 873
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 970
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1067
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1164
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1261
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1358
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1455
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1552
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1649
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1746
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1843
+menu 3 1
+menu 1 1
+menu 3 2
+menu 1 1
+menu 1 0
+dealno 1940
+menu 3 1
+menu 1 1
+dealno 24891
+menu 3 2
+state
+end 30

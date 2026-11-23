@@ -1,0 +1,22 @@
+# Golf #4: the talon dealt out (16 clicks); then no card goes on the
+# waste: the status bar says No moves left (the console: SOL NO MOVES)
+game 6 4
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+clickstack t
+state
+clickstack t
+state
+end 30

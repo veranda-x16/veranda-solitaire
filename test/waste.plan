@@ -1,0 +1,8 @@
+# Klondike #1 (draw 1): the talon dealt (the waste: 4H, AC), the ace sent
+# home by a double click: the waste goes from two cards to one and the 4 of
+# hearts under the ace must be drawn again whole (on the user's R49 the
+# ace's left side stayed over it: the waste showed the wrong card)
+game 0 1
+moves test/waste.moves
+state
+end 30

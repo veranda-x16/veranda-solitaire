@@ -1,0 +1,24 @@
+# the dragged outline at the right of the screen (the user's report: past
+# x 512 its frame was drawn 512 pixels to the left, a card split in two):
+# Klondike #1, the waste's card dragged to the right row (x 528) twice;
+# screenshots at step 5 of 6 (the frame across x 512) and step 6 (all of
+# it past 512); and the spade ace dragged from that row
+game 0 1
+drag r5 f2 1
+shot rfrom 1
+drag r6 f1 1
+drag r6 r0 1
+drag r6 r1 1
+drag r6 r3 1
+drag w r2 1
+dbl w 4
+drag r4 r2 1
+drag r0 r4 2
+drag r4 r0 3
+shot racross 5
+drag w r6 1
+clickstack t
+shot rend 6
+drag w r6 1
+state
+end 30

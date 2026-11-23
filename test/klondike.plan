@@ -1,0 +1,42 @@
+# Klondike through the mouse. The test build starts at deal #5; deal
+# number 1 is typed in (Alt + D); a simple player's moves (drags, double
+# clicks, deals); undo and redo by keys; the menus by the mouse: geos/
+# about, options/auto-drop, options/draw 3 (the same deal dealt again by
+# threes), game/statistics, game/choose game (Spider, 1 suit) and a deal
+# number, geos/Calculator (the gate puts Veranda's calculator in the
+# system folder; the test build queues a 'q' that closes it); snapshots
+# of the state along the way
+game 0 5
+dealno 1
+auto 10
+shot drag
+auto 14
+state
+undo
+state
+redo
+undo
+undo
+state
+menu 0 0
+shotnow about
+ok
+menu 3 0
+auto 6
+state
+menu 3 2
+state
+auto 8
+state
+menu 1 4
+shotnow stats
+ok
+choose 2
+dealno 7
+auto 12
+state
+menu 0 1
+state
+menu 2 0
+state
+end 60
